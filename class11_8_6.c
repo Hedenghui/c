@@ -38,7 +38,7 @@ void reverse(char* str)
 		{
 			++cur;
 		}
-		reverse_str(start, cur );
+		reverse_str(start, cur - 1);
 		while (*cur == ' ')
 			++cur;
 	}
